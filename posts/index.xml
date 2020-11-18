@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Życie Mnie Mnie</title>
-    <link>https://zyciemniemnie.github.io/</link>
-    <description>Recent content on Życie Mnie Mnie</description>
+    <title>Posts on Życie Mnie Mnie</title>
+    <link>https://zyciemniemnie.github.io/posts/</link>
+    <description>Recent content in Posts on Życie Mnie Mnie</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pl-pl</language>
     <copyright>&amp;copy; 2020 Jadwiga Maksym i Kaczmarek</copyright>
-    <lastBuildDate>Wed, 18 Nov 2020 23:37:32 +0100</lastBuildDate><atom:link href="https://zyciemniemnie.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 18 Nov 2020 23:37:32 +0100</lastBuildDate><atom:link href="https://zyciemniemnie.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hello World</title>
       <link>https://zyciemniemnie.github.io/posts/hello-world/</link>

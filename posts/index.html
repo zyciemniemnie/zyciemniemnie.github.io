@@ -39,12 +39,51 @@
 
 
 
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [{
+"@type": "ListItem",
+"position":  1 ,
+"name": "Życie Mnie Mnie",
+"item": "https://zyciemniemnie.github.io/"
+},{
+"@type": "ListItem",
+"position":  2 ,
+"name": "Posts",
+"item": "https://zyciemniemnie.github.io/posts/"
+}]
+}
+</script>
+
+
+
+
+
+<script type="application/ld+json">
+{
+    "@context":"https://schema.org",
+    "@type":"ItemList",
+    "itemListElement":[{
+            "@type":"ListItem",
+            "position":  1 ,
+            "name": "Hello World",
+            "description": "Hello World Hello, Hello\u0026hellip;.",
+            "url": "https://zyciemniemnie.github.io/posts/hello-world/"
+        }
+    ]
+}
+</script>
+
+
 <meta property="og:title" content="Życie Mnie Mnie" />
 <meta property="og:type" content="website" />
 
 
 
-<meta property="og:url" content="https://zyciemniemnie.github.io/" />
+<meta property="og:url" content="https://zyciemniemnie.github.io/posts/" />
 
 
 
@@ -70,11 +109,11 @@
 
 
 
-<meta property="article:section" content="" />
+<meta property="article:section" content="posts" />
 
 
 
-<link rel="alternate" type="application/rss+xml" href="https://zyciemniemnie.github.io/index.xml" title="Życie Mnie Mnie" />
+<link rel="alternate" type="application/rss+xml" href="https://zyciemniemnie.github.io/posts/index.xml" title="Życie Mnie Mnie" />
 <body class="flex flex-col min-h-screen">
     <header class="flex items-center fixed w-full min-h-16 z-50 bg-secondary-bg shadow-sm">
         <div class="container mx-auto">
@@ -97,7 +136,7 @@
     <div id="target"
         class="hidden block md:flex md:flex-grow md:justify-between md:items-center w-full md:w-auto text-primary-text z-20">
         <div class="text-sm md:flex-grow pb-4 md:pb-0 border-b md:border-b-0" id="current-url"
-            currenturl="https://zyciemniemnie.github.io/">
+            currenturl="https://zyciemniemnie.github.io/posts/">
             
         </div>
 
@@ -177,57 +216,26 @@
 
     <main class="flex-grow pt-16">
         
-<div class="w-full bg-secondary-bg">
-    <div class="container mx-auto">
-        <div class="max-w-screen-xl">
-            <div class="grid grid-cols-9 grid-rows-5 h-screen -mt-16">
-                
-                
-                <div class="col-start-2 col-span-4 row-start-3 row-span-2 bg-local bg-cover z-10 shadow-2xl"
-                    style="background-image: url(https://zyciemniemnie.github.io/images/left.jpg);"></div>
-                
-                
-                <div class="col-start-3 col-span-5 row-start-2 row-span-3 z-20">
-                    <div class="flex flex-col items-center justify-center min-h-full">
-                        <div class="bg-white bg-opacity-75 shadow-2xl -m-12 p-12">
-                            <span
-                                class="font-bold text-black text-opacity-75 text-2xl md:text-3xl">Życie Prze i Mnie Mnie (Uknonw Peot)</span>
-                        </div>
-                    </div>
-                </div>
-                
-                
-                <div class="col-start-5 col-span-4 row-start-2 row-span-2 bg-local bg-cover shadow-2xl"
-                    style="background-image: url(https://zyciemniemnie.github.io/images/right.jpg);">
-                </div>
-                
-                
+        <div class="container mx-auto ">
+            <div class="max-w-screen-xl lg:px-4 xl:px-8">
+<article class="mx-6 my-8">
+    <h1 class="font-bold text-3xl text-primary-text">Posts</h1>
+    
+</article>
+<div class="bg-secondary-bg rounded overflow-hidden px-4 divide-y">
+    
+    <div class="px-2 py-6">
+        <div class="flex flex-col-reverse lg:flex-row justify-between">
+    <div class="w-full">
+        <div class="my-2">
+            <div class="mb-4">
+                <a href="https://zyciemniemnie.github.io/posts/hello-world/" class="font-bold text-xl hover:text-eureka">Hello World</a>
+            </div>
+            <div class="content">
+                Hello World Hello, Hello&amp;hellip;.
             </div>
         </div>
-    </div>
-</div>
-<div class="container mx-auto ">
-    <div class="max-w-screen-xl pt-12 md:px-4 xl:px-8">
         
-        
-<div class="mx-4 xl:mx-16">
-    <div class="flex flex-row items-center justify-between">
-        <h2 class=" font-bold text-3xl my-4"></h2>
-    </div>
-    <div class="masonry grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
-        
-        <div class="item">
-            <div class="grid-content">
-                <div class="bg-secondary-bg rounded overflow-hidden hover:shadow-lg transition ease-in-out duration-200">
-    
-    
-    <div class="px-6 pt-6">
-        <div class="font-bold text-xl text-primary-text mb-2">
-            <a href="https://zyciemniemnie.github.io/posts/hello-world/" class="hover:text-eureka">Hello World</a>
-        </div>
-        <div class="">Hello World Hello, Hello&amp;hellip;.</div>
-    </div>
-    <div class="px-6 pb-2">
         <div class="flex flex-wrap flex-row items-center my-2 text-tertiary-text">
     <div class="mr-6 my-2">
         <i class="fas fa-calendar mr-1"></i>
@@ -242,22 +250,20 @@
 
     
 </div>
-    </div>
-</div>
-            </div>
-        </div>
         
     </div>
+    
+    
 </div>
-<script>
-    document.addEventListener('DOMContentLoaded', ()=>{
-        enableMasonry()
-    })
-</script>
-
     </div>
+    
 </div>
 
+
+
+
+            </div>
+        </div>
         
     </main>
 
